@@ -5,6 +5,7 @@
     <RootNamespace>WinformActions</RootNamespace>
     <AssemblyName>WinformActions</AssemblyName>
   </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Form1.cs" />
@@ -16,4 +17,6 @@
     </EmbeddedResource>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
